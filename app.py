@@ -36,7 +36,7 @@ with dataset:
 
 with recommendation:
     st.header('LET US MAKE RECOMMENDATION TO YOU')
-    text1 = '<p style="font-family:Courier; color:darkcyan; font-size: 20px;">Now you show us one of your favourite movies ...</p>'
+    text1 = '<p style="font-family:Courier; color:darkcyan; font-size: 20px;">Now you show us one of your favorite movies ...</p>'
     st.markdown(text1, unsafe_allow_html=True)
     text2 = '<p style="font-family:Courier; color:darkcyan; font-size: 20px;">... then let we recommend you movies that you will love</p>'
     st.markdown(text2, unsafe_allow_html=True)
