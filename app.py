@@ -22,7 +22,7 @@ with dataset:
     logo_netflix = Image.open('source/image_streamlit/netflix.jpg')
     logo_amazon_prime = Image.open('source/image_streamlit/primevideo.png')
     logo_apple_tv = Image.open('source/image_streamlit/apple_tv.png')
-    logo_hbo = Image.open('source/image_streamlit/hbo.jpg')
+    logo_hbo = Image.open('source/image_streamlit/HBO.jpg')
     logo_disney = Image.open('source/image_streamlit/disney.png')
     logo_paramount = Image.open('source/image_streamlit/paramount.png')
     with col1:
