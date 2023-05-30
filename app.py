@@ -10,10 +10,8 @@ dataset = st.container()
 recommendation = st.container()
 
 with header:
-    col1, col2, col3 = dataset.columns(3)
     header_ = '<p style="font-family:sans-serif; color:DarkGreen; font-size: 46px;">MOVIE RECOMMENDATION</p>'
-    with col2:
-        st.markdown(header_, unsafe_allow_html=True)
+    st.markdown(header_, unsafe_allow_html=True)
     text0 = '<p style="font-family:Courier; color:midnightblue; font-size: 24px;">With this application, we would like to make a list of movies that you will love watching!</p>'
     st.markdown(text0, unsafe_allow_html=True)
     
