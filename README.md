@@ -6,5 +6,6 @@ The project aims to build a movie recommender based on movie attributes (title, 
 
 Recommendation is based on the similarity between movies which consists of 2 parts: similarity of the summaries and that of the remaining characteristics. For the first one, an autoencoders model was implemented. Cosine similarity was called for calculating similarites. The final similarity matrix was recuperated by taking average of these 2 similarity scores.
 
+Finally, the movie recommender was deployed as a streamlit application.
 [The application can be reached here] (https://vinetran-movie--recommender-app-tn7gmf.streamlit.app/)
 
